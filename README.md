@@ -1,0 +1,1 @@
+# fakra-scanner-manager-python
