@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>460</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Vezeték</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Doboz</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Állapot</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="lblStatus">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>461</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>mit javí
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: purple;</string>
+    </property>
+    <property name="text">
+     <string>lblStatus</string>
+    </property>
+    <property name="alignment">
+     <set>AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnNewBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>740</y>
+      <width>460</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Új doboz</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
